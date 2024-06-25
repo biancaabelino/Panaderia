@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: "Playwrite US Trad";
+    font-size: 30px;
+    color: brown;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+section{
+    margin-top: 20px;
+}
+
+#carouselExampleCaptions{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#carouselExampleCaptions h5{
+    font-size: 25px;
+}
+
+#carouselExampleCaptions p{
+    color: white;
+}
+
+.contenedor_limite{
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    padding: 25px 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card_prod{
+    max-width: 300px;
+    background-color: rgb(245, 238, 220);
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.card-body h5{
+    margin: 20px;
+
+}
+
+.contenedor_limite_2{
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    padding: 15px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    color: brown;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.padre{
+    padding: 25px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    max-width: 300px;
+    background-color: rgb(243, 220, 185);
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px 0 ;
+}
+
+ .card i{
+    font-size: 100px;
+}
+
+.card h3{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+
+.card p{
+    font-size: 15px;
+    color: brown;
+}
+
+.parent {
+    display: grid;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(223, 156, 57);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div1 iframe{
+    width: 100%;
+}
+
+.div2 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.div2 iframe{
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(216, 159, 122);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.contenedor_limite_3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+footer i:hover{
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer i{
+    font-size: 30px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 7px;
+}
+
+footer h5{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(114, 68, 0);
+}
+
+footer h6{
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:600px) {
+    header{
+        flex-direction: column;
+        align-items: start;
+    }
+    
+}
